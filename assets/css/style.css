@@ -1,0 +1,391 @@
+/* social media connections */
+
+.social-media-links{
+    width: 194px;
+    margin: 0 auto;
+}
+
+.social-media-links li{
+    display: inline-block;
+    border: 2px solid rgba(1,1,1,0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding-left: 3px;
+    padding-top: 9px;
+}
+
+.fa-facebook-f{
+  padding: 2px;
+}
+
+#git{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.social-media-links li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin: 10px;
+    transition: .4s ease-in-out;
+}
+
+.social-media-links li a:hover {
+    transition: .4s ease-in-out;
+}
+
+.social-media-links li:hover {
+    transition: .4s ease-in-out;
+    border: 2px solid rgba(0,0,0,0.8);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+    transition: .4s ease-in-out;
+}
+
+.vertical-line {
+    display: block;
+    background-color: black;
+    width: 1px;
+    margin: 20px auto;
+    height: 35px;
+    opacity: .6;
+}
+
+#s1{
+  width: 300px;
+  height: 250px;
+  background: rgba(255,255,255,.7);
+  margin-top: 35px;
+  margin-left: 5%;
+}
+
+.responsive-picture{
+  width: 300px;
+  height: 150px;
+}
+
+h2#s-heading{
+  margin-top: 10%;
+}
+h3{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: uppercase;
+}
+
+body{
+  background-size: cover;
+  background-color: white;
+  background-image: url(../images/white1.jpg);
+}
+
+#name {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 45px;
+  text-align: center;
+  border: 3px solid black;
+  width: 67px;
+  height: 65px;
+  margin-left: 47.5%;
+  border-radius: 50%;
+  padding: 5px;
+  padding-right: 0px;
+  padding-left: 6px;
+}
+
+#name-media{
+  display: none;
+}
+
+#contact-me {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  width: 315px;
+  margin: 7% auto 7% auto;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+  padding-top: 1%;
+}
+#contact-me a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+}
+
+#contact-me a:hover{
+  color: rgba(0, 0, 0, 1);
+  transition: .3s ease-in-out;
+  letter-spacing: .2px;
+}
+
+html, body {
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+}
+
+html {
+  background: #eeecec;
+  overflow-x: hidden;
+}
+
+.navT {
+  -webkit-transition: all 0.25s;
+  z-index: 111;
+  cursor: pointer;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 65px;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+.navT .icon {
+  -webkit-transition: all 0.25s;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  right: 15px;
+  top: 30px;
+  background-color: black;
+}
+.navT .icon:before, .navT .icon:after {
+  -webkit-transition: all 0.25s;
+  width: 30px;
+  height: 1px;
+  left: 0;
+  background: black;
+  position: absolute;
+  content: '';
+}
+.navT .icon:before {
+  top: -10px;
+}
+.navT .icon:after {
+  top: 10px;
+}
+.navT:hover {
+  background: white;
+  opacity: .81;
+}
+.navT:hover .icon:before {
+  top: -12px;
+}
+.navT:hover .icon:after {
+  top: 12px;
+}
+.navT.active .icon {
+  -webkit-transform: rotate(180deg);
+  background-color: transparent;
+  right: 15px;
+}
+.navT.active .icon:before, .navT.active .icon:after {
+  top: 0;
+}
+.navT.active .icon:before {
+  -webkit-transform: rotate(45deg);
+}
+.navT.active .icon:after {
+  -webkit-transform: rotate(-45deg);
+}
+
+#menu {
+  z-index: 111;
+  -webkit-transition: all 0.5s;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 65px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid transparent;
+  overflow: hidden;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+  letter-spacing: 0.4em;
+}
+#menu li:first-child {
+  margin-top: 20;
+}
+#menu li {
+  -webkit-transition: all 0.2s;
+  margin-top: 20px;
+  padding: 3px 0;
+  color: white;
+}
+#menu a {
+  color: black;
+  padding: 8px;
+  -webkit-transition: all 0.25s;
+  cursor: pointer;
+}
+#menu a:hover {
+  letter-spacing: 0.5em;
+  text-decoration: underline;
+}
+#menu.open {
+  height: 195px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.space {
+  letter-spacing: 0;
+}
+
+.content {
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  -webkit-transition: top 0.5s;
+  position: absolute;
+  top: 65px;
+  margin: 0 auto;
+}
+.content h1 {
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  margin-top: 5%;
+  margin-left: 10px;
+}
+.content h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-weight: 400;
+  letter-spacing: 0.7em;
+  text-align: center;
+  /*border-bottom: 1px solid rgba(0, 0, 0, .3);
+  margin-bottom: 25px;*/
+}
+
+.content.shift {
+  top: 40%;
+}
+
+.profile-picture{
+  margin-left: 5%;
+  width: 234px;
+  height: 223px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+p {
+  color: white;
+  margin-top: 50px;
+  font-size: 0.75em;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+#paragraph-wrapper{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  margin-top: 35px;
+  width: 100%;
+  height: 272px;
+  float: left;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#paragraph{
+  padding-top: 15px;
+  display: block;
+  margin-right: 5%;
+}
+
+#bar {
+  width: 40%;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px dashed white;
+}
+
+/*#initials{
+  height: 100px;
+  width: 100px;
+  margin-right: 500px;
+
+}
+
+.jh-picture{
+  height: 60px;
+  width: 91px;
+}*/
+
+
+
+
+/* iPad media query */
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+#name {
+  display: none;
+}
+
+#name-media{
+  display: initial;
+  text-align: center;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-top: 10px;
+  font-size: 45px;
+  left: 0;
+  margin-left: 47.5%;
+}
+
+#paragraph-wrapper{
+  margin-top: 35px;
+  width: 100%;
+  height: 300px;
+  float: left;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* iPhone media query */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  #name {
+    display: none;
+  }
+
+  #name-media{
+    display: initial;
+    text-align: center;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 10px;
+    font-size: 45px;
+    left: 0;
+    margin-left: 47.5%;
+  }
