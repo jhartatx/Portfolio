@@ -42,7 +42,32 @@
 			collaborate on, please feel free to reach out.</p>
 		</div>
 		<div class="col-md-6">
-			<form>
+
+			<div class="cell">
+					<form class="grid-x align-center" onsubmit="return submitMessage()" data-abide novalidate>
+							<div class="cell small-11 medium-7 input-wrapper">
+									<label for="formName">Your Name</label>
+									<span class="form-error">A name is required.</span>
+									<input id="formName" name="name" type="text" placeholder="Jane Doe" required>
+							</div>
+							<div class="cell small-11 medium-7 input-wrapper">
+									<label for="email">Your Email</label>
+									<span class="form-error">An email address is required.</span>
+									<input id="email" name="email" type="email" placeholder="Contact@spam.com" required>
+							</div>
+							<div class="cell small-11 medium-7">
+									<label for="message">Your Message</label>
+									<span class="form-error">A message is required.</span>
+									<textarea id="message" class = "commentruu" name="message"required></textarea>
+							</div>
+							<input type="text" name="_gotcha" style="display: none">
+							<div class="cell small-11 medium-7 flex-container align-center align-middle text-center">
+									<button id="contactSubmit" type="submit" class="button large">Submit</button>
+									<span id="thankYou" style="display: none">Thanks! I'll get back to you as soon as possible!</span>
+							</div>
+					</form>
+			</div>
+			<!-- <form>
   			Name *<br>
   				<input type="text" placeholder="First Name" class="firstName">
   				<input type="text" placeholder="Last Name" class="lastName"><br>
@@ -53,7 +78,8 @@
 				Message *<br>
 					<input type="text" class="message"><br>
 					<input type="submit" class="submit" value="Submit">
-			</form>
+			</form> -->
+
 
       <!-- <div id="contact-me">
         <a class="email" href="mailto:jhartatx@gmail.com?Subject=Hello" target="_top">jhartatx@gmail.com</a>
@@ -65,7 +91,7 @@
 	<div class="social-media-links">
     <ul>
         <li><a target="_blank" a href="https://www.facebook.com/jhartatx"> <i class="fa fa-facebook-f" aria-hidden="true"></i> </a></li>
-        <li id="git"><a target="_blank" href="https://github.com/jhartatx"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a target="_blank" href="https://github.com/jhartatx"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/jhartatx"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
     </ul>
 	</div>
