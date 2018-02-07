@@ -20,3 +20,19 @@ function submitMessage(){
         $('#thankYou, #contactSubmit').toggle('slow');
     })
 }
+
+$(".extreme").on("click", function(){
+  window.open("https://github.com/jhartatx/Extreme-Capitalism", "_blank");
+});
+
+$(".on-tap").on("click", function(){
+  window.open("https://jhartatx.github.io/On-Tap-ATX/", "_blank");
+});
+
+$(".gt").on("click", function(){
+  window.open("https://jhartatx.github.io/Giftastic/", "_blank");
+});
+
+$(".hm").on("click", function(){
+  window.open("https://jhartatx.github.io/Hangman-Game/", "_blank");
+});

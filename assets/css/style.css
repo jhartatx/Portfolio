@@ -414,6 +414,167 @@ p {
   border: 1px dashed white;
 }
 
+/* Portfolio css */
+
+.extreme{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.8);
+  margin-left: 8%;
+  margin-top: 100px;
+  padding: 10px;
+
+}
+
+.extreme:hover ~ .projectTitles{
+  cursor: pointer;
+  text-decoration: underline;
+
+  }
+
+  .extreme:hover{
+  cursor: pointer;
+  }
+
+.on-tap{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.8);
+  margin-left: 8%;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.on-tap:hover ~ .projectTitles2{
+  cursor: pointer;
+  text-decoration: underline;
+ 
+
+  }
+
+  .on-tap:hover{
+  cursor: pointer;
+  }
+
+.gt{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.8);
+  margin-left: 8%;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.gt:hover ~ .projectTitles3{
+  cursor: pointer;
+  text-decoration: underline;
+  
+
+  }
+
+  .gt:hover{
+  cursor: pointer;
+  }
+
+.hm{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.8);
+  margin-left: 8%;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.hm:hover ~ .projectTitles4{
+  cursor: pointer;
+  text-decoration: underline;
+  
+
+  }
+
+  .hm:hover{
+  cursor: pointer;
+  }
+
+ #pf1{
+  display: inline-block;
+ 
+  margin-left: 3%;
+}
+
+#pf2{
+  display: inline-block;
+  
+  margin-left: 3%;
+}
+
+#pf3{
+  display: inline-block;
+ 
+  margin-left: 3%;
+}
+
+#pf4{
+  display: inline-block;
+ 
+  margin-left: 3%;
+} 
+
+.projectTitles{
+  margin-left: 18%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+
+}
+
+.projectTitles2{
+  margin-left: 32%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+
+}
+
+.projectTitles3{
+  margin-left: 39%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+
+}
+
+.projectTitles4{
+  margin-left: 24%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+
+}
+
+h4{
+  float: right;
+  margin-right: 50%;
+  margin-top: 3%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
 /* iPad media query */
 
 @media only screen
@@ -443,6 +604,8 @@ p {
   float: left;
   background: rgba(0, 0, 0, 0.6);
 }
+
+
 
 /* iPhone media query */
 
